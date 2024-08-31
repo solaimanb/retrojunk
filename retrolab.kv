@@ -4,11 +4,17 @@ BoxLayoutCanvas:
     orientation: "vertical"
     Button:
         text: "Press A"
-        size_hint: 1, .5
-        pos_hint: {"left": .25}
-    
-    Button:
-        text: "Press B"
+        size_hint: .5, .5
+        pos_hint: {"center_x": .5}
+    BoxLayout
+        Button:
+            text: "Press B1"
+        Button:
+            text: "Press B2"
+        Button:
+            text: "Press B3"
+        Button:
+            text: "Press B4"
     
     Button:
         text: "Press C"
